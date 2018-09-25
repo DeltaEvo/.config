@@ -1,0 +1,14 @@
+[user]
+	name = Duarte David
+	email = deltaduartedavid@gmail.com
+	signingkey = 5F15860A5A94C62CDD1B19D24A8025B0A7C3E9A3
+[core]
+	autocrlf = input
+[receive]
+	denyCurrentBranch = warn
+[alias]
+	lg = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
+[gpg]
+	program = gpg2
+[commit]
+	gpgsign = true

@@ -112,7 +112,7 @@ function clock:draw(_, cr, width, height)
 	cr:set_line_width(5)
 	cr:rotate(minutes / 60 * math.pi * 2);
 	cr:set_source(gold)
-	draw_clock_pointer(cr, radius, 2)
+	draw_clock_pointer(cr, radius, 1.4)
 	cr:identity_matrix()
 	cr:translate(x_gap + radius, y_gap + radius)
 
@@ -121,7 +121,7 @@ function clock:draw(_, cr, width, height)
 	cr:set_line_width(6)
 	cr:rotate(hours / 12 * math.pi * 2);
 	cr:set_source(gold)
-	draw_clock_pointer(cr, radius, 1.25)
+	draw_clock_pointer(cr, radius, 2)
 	cr:identity_matrix()
 	cr:translate(x_gap + radius, y_gap + radius)
 

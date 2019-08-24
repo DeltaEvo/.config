@@ -17,7 +17,7 @@ theme.bg_normal = "#222222"
 theme.bg_focus = "#535d6c"
 theme.bg_urgent = "#ff0000"
 theme.bg_minimize = "#444444"
-theme.bg_systray = theme.bg_norma
+theme.bg_systray = theme.bg_normal
 
 theme.fg_normal = "#aaaaaa"
 theme.fg_focus = "#ffffff"
@@ -67,7 +67,7 @@ theme.menu_width = dpi(100)
 --theme.bg_widget = "#cc0000"
 
 -- Define the image to load
-theme.wallpaper = "~/.wallpaper.png"
+theme.wallpaper = os.getenv("HOME") .. "/.config/awesome/wallpaper.jpg"
 
 -- You can use your own layout icons like this:
 theme.layout_fairh = themes_path .. "default/layouts/fairhw.png"
